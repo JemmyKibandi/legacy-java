@@ -6,7 +6,8 @@ public class RandomNumberGenerations {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
-        int randomNumber = random.nextInt(100) + 1; // Random number between 1 and 100
+        int randomNumber = random.nextInt(100) + 1; 
+        // Random number between 1 and 100
         int guess;
         int attempts = 0;
 
